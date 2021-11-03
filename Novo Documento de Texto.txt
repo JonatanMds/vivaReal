@@ -1,0 +1,18 @@
+ForEach pode usar (pode) map (pode)
+.innerHTML = " <div> <div> <div> <p> </p> </div> </div>"(não pode)
+
+
+funcçoes criadoras 
+funcoess de requisição http
+funcçoes listnes e funcões que tratam os listines
+
+export defaul
+
+estruturação de arquivo
+
+
+
+debouncing/throttling ou clicar fora
+
+
+Intl.NumberFormat

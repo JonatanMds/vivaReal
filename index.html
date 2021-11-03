@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,100&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="stylesheet" href="./styles/topicos.css">
+    <link rel="stylesheet" href="./styles/imoveis.css">
+    <link rel="stylesheet" href="./styles/globalStyle.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- Header -->
+    <header id="header">
+        <img src="https://cdn1.vivareal.com/p/1-ba36604/v/static/app/svg/styleguide/logo/vivareal-5bcdffca.svg" alt="" style="width: 100px;">
+        <ul class="headerList">
+            <li>VIVAREAL</li>
+            <li>COMPRAR</li>
+            <li>ALUGAR</li>
+            <li>IMÓVEIS NOVOS</li>
+            <li>SELEÇÃO VIVA REAL</li>
+            <li>DESCOBRIR</li>
+            <li>FINACIAMENTO</li>
+        </ul>
+        
+        <ul class="headerList">
+            <li>ANUNCIAR IMÓVEIS</li>
+            <li>ENTRAR</li>
+        </ul>
+    </header>
+    <!-- Fim header -->
+
+
+
+    <main id="main">
+        <!-- Barra a esquerda, Localização de imoveis -->
+        <section>
+            <div  class="localizacaoDeImoveis">
+                <form action="">
+                    <label for="">LOCALIZAÇÃO DE IMÓVEIS</label>
+                    <input type="text" id="inputStats" value="" placeholder="Digite uma rua, bairro ou cidade">
+
+                    <p id="estadoDigitado"></p>
+
+                    <div id=button>
+                        <p>IMÓVEL COM</p>
+                        <input type="checkbox" name="btn1" id="btn1">
+                    </div>
+
+                    <label for="">TIPO DE IMÓVEL</label>
+                    <select name="" id="" value="" placeholder="Monstrar todos"></select>
+
+                    <div class="precoMinimoEMaximo">
+                        <div>
+                            <label for="">PREÇO MÍNIMO</label>
+                            <input type="text" placeholder="R$">
+                        </div>
+
+                        <div>
+                            <label for="">PREÇO MÁXIMO</label>
+                            <input type="text" placeholder="R$ ilimitado">
+                        </div>
+                    </div>
+
+                    <label for="">NÚMERO DE QUARTO</label>
+                    
+                    <div class="numeroDeQuartos">
+                        <ul>
+                            <li><button type="button">1+</button></li>
+                            <li><button type="button">2+</button></li>
+                            <li><button type="button">3+</button></li>
+                            <li><button type="button">4+</button></li>
+                            <li><button type="button">5+</button></li>   
+                        </ul>
+                    </div>
+                </form>
+            </div>
+
+            <div class="localizacaoDeImoveis valor">
+                <form action="">
+
+                    <div class="precoMinimoEMaximo second">
+                        <div>
+                            <label for="">PREÇO MÍNIMO</label>
+                            <input type="text" placeholder="m">
+                        </div>
+                        
+                        <div>
+                            <label for="">PREÇO MÁXIMO</label>
+                            <input type="text" placeholder="R$ ilimitado">
+                        </div>
+                    </div>
+                        <label for="">NÚMERO DE VAGAS NA GARAGEM</label>
+                        <div class="numeroDeQuartos">
+                            <ul>
+                                <li><button type="button">1+</button></li>
+                                <li><button type="button">2+</button></li>
+                                <li><button type="button">3+</button></li>
+                                <li><button type="button">4+</button></li>
+                                <li><button type="button">5+</button></li>   
+                            </ul>
+                        </div>
+                        
+                        <label for="">NÚMERO DE BANHEIROS</label>
+                        <div class="numeroDeQuartos">
+                            <ul>
+                                <li><button type="button">1+</button></li>
+                                <li><button type="button">2+</button></li>
+                                <li><button type="button">3+</button></li>
+                                <li><button type="button">4+</button></li>
+                                <li><button type="button">5+</button></li>   
+                            </ul>
+                        </div>
+                </form>
+            </div>
+        </section>
+        <!-- Barra a esquerda, Localização de imoveis -->
+    
+        
+        <!-- Direita da pagina com apartamento -->
+        <section id="imoveis">
+            <ul id="listaImoveis">
+                <li class="lista">COMPRAR</li>
+                <li class="lista">ALUGAR</li>
+                <li class="lista">IMÓVIES NOVOS</li>
+                <li class="lista">SELEÇÃO VIVA REAL</li>
+            </ul>
+
+            <div id="apartamentos">
+            </div>
+
+            <div id="imovel">
+                <ul id="imoveisAVenda"></ul>
+            </div>
+
+
+        </section>
+
+    </main>
+
+    <div id="topicos">
+        <div class="topicosDoFooter">
+            <ul class="topicos">
+                <li>Encontre imóveis</li>
+                <li>Comprar</li>
+                <li>Alugar</li>
+                <li>Imóveis Novos</li>
+                <li>Descobrir</li>
+                <li>Dúvidas sobre como usar o Viva Real</li>
+                <li>Mapa do site</li>
+            </ul>
+        </div>
+
+        <div class="topicosDoFooter">
+            <ul class="topicos">
+                <li>Institucional</li>
+                <li>Sobre nós</li>
+                <li>Quer tranalhar conosco?</li>
+            </ul>
+        </div>
+        
+        <div class="topicosDoFooter">
+            <ul class="topicos">
+                <li>Mais produtos</li>
+                <li>Blog</li>
+                <li>Viva Corretor</li>
+                <li>Simulador Minha Casa Minha Vida</li>
+                <li>Simulador de Financiamento de Imóvies</li>
+            </ul>
+        </div>
+        
+        <div class="topicosDoFooter">
+            <ul class="topicos">
+                <li>Anunciante</li>
+                <li>Anunciar imóveis</li>
+                <li>Duvidas frequentes dos anunciantes</li>
+            </ul>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <div class="footerList img">
+            <img src="" alt="">
+            <p>Copyrigth @ 2021 OLX Brasil. Todos os direitro reservados</p>
+        </div>
+
+        <div class="footerList">
+            <ul>
+                <li>TERMOS DE USO</li>
+                <li>POLÍTICA DE PRIVACIDADE</li>
+                <li>POLÍTICA DE COOKIES</li>
+                <li>PORTAL DE PRIVACIDADE</li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="./index.js" type="module"></script>
+
+</body>
+</html>

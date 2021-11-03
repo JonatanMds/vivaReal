@@ -1,0 +1,15 @@
+#topicos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: #05577f;
+    margin-top: 20px;
+}
+
+.topicosDoFooter{
+    padding: 30px;
+    padding-left: 50px;
+}
+
+.topicos li{
+    margin-bottom: 20px;
+}

@@ -1,0 +1,54 @@
+#listaImoveis{
+    display: flex;
+    border-bottom: solid 1px black;
+}
+
+.lista{
+    padding: 20px;
+    color: #0a8acc;
+    font-size: .8em;
+}
+
+#listaImov li{
+    display: flex;
+    border-bottom: solid 1px black;
+}
+
+#imoveis li div{
+    margin-right: 10px;
+    padding: 15px;
+}
+
+#imoveis li img{
+    /* margin-right: 10px; */
+    /* padding: 15px; */
+    border-radius: 8px 0px 0px 8px;
+    object-fit: cover;
+}
+
+
+#imovel{
+    display: flex;
+    
+}
+
+
+#imoveisAVenda{
+    display: flex;
+    flex-direction: column;
+}
+
+#imoveisAVenda li{
+    display: flex;
+    border: solid 1px black;
+    border-radius: 8px;
+
+}
+
+#imoveisAVenda li img{
+    width: 350px;
+}
+
+#listaImoveis li:hover{
+    background-color: #c1e0f0;
+}

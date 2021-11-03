@@ -1,0 +1,4 @@
+body{
+    font-size: 16px; /*rem toma como base o bady que foi expessificado na pagina /// 16px é = 1em*/
+    font-family: 'Roboto', sans-serif;
+}

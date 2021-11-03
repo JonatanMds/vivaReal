@@ -1,0 +1,23 @@
+#header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #0a8acc;
+    font-size: .9em;
+}
+
+.headerList{
+    display: flex;
+    list-style: none;
+}
+
+.headerList li{
+    color: white;
+    padding: 20px;
+}
+
+.headerList :hover{
+    background-color: #1c95d1;
+    cursor: pointer;
+}
+
